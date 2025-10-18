@@ -1,0 +1,7 @@
+<theme name="numen">
+    <background>#FF1E9B</background>
+    <panel_bg>#1A0014</panel_bg>
+    <highlight>#00FFFF</highlight>
+    <accent>#FF1E9B</accent>
+    <text>#FFFFFF</text>
+</theme>

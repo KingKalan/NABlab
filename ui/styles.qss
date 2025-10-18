@@ -1,0 +1,95 @@
+QMainWindow {
+    background-color: #081122;
+    color: white;
+    font-family: 'default';
+}
+
+QPushButton {
+    background-color: rgba(0, 255, 255, 0.15);
+    color: #FFFFFF;
+    border: 1px solid #00FFFF;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 30, 155, 0.2);
+    border-color: #FF1E9B;
+}
+
+QLabel {
+    color: #FFFFFF;
+}
+
+QTreeView {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    alternate-background-color: rgba(255, 255, 255, 0.05);
+}
+
+#TopBar QPushButton {
+    background-color: rgba(0, 255, 255, 0.15);
+    color: #FFFFFF;
+    border: 1px solid #00FFFF;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+#TopBar QPushButton:hover {
+    background-color: rgba(255, 30, 155, 0.25);
+    border-color: #FF1E9B;
+}
+
+#TopBar QPushButton[text='✕']:hover {
+    background-color: rgba(255, 64, 64, 0.6);
+    border-color: #FF4040;
+}
+
+#TopBar {
+    background-color: rgba(8, 17, 34, 0.9);
+    border-bottom: 1px solid rgba(0, 255, 255, 0.25);
+}
+
+#TopBar QLabel {
+    padding: 0 6px;
+}
+
+/* --- Compact dark QComboBox --- */
+QComboBox {
+    background-color: rgba(8,17,34,0.9);
+    color: #FFFFFF;
+    border: 1px solid #00FFFF;
+    border-radius: 6px;
+    padding: 4px 8px;
+    min-height: 26px;
+}
+
+QComboBox:hover {
+    border-color: #FF1E9B;
+}
+
+/* drop-arrow */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 18px;
+    border-left: 1px solid #00FFFF;
+    background-color: rgba(0,255,255,0.15);
+}
+
+QComboBox::down-arrow {
+    image: none;
+    color: #FF1E9B;
+    font-weight: bold;
+}
+
+/* --- only the popup list itself --- */
+QComboBox QAbstractItemView {
+    background-color: rgba(8,17,34,0.95);   /* dark blue background */
+    color: #FFFFFF;                         /* normal text */
+    selection-background-color: rgba(255,30,155,0.4);
+    selection-color: #FF1E9B;
+    border: 1px solid #00FFFF;
+    outline: none;
+}

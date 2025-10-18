@@ -1,0 +1,14 @@
+<theme name="dark_retro">
+  <!-- Background for main window and editor -->
+  <background>#0A0A0A</background>
+
+  <!-- Panels and shelf background -->
+  <panel_bg>#101018</panel_bg>
+
+  <!-- Accent / highlight colors -->
+  <highlight>#00FFFF</highlight>
+  <accent>#FF00AA</accent>
+
+  <!-- Text color -->
+  <text>#FFFFFF</text>
+</theme>
